@@ -38,20 +38,23 @@ const SearchParams = () => {
           requestPets();
         }}
       >
-        <label htmlFor="location">
-          Location
-          <input
-            id="location"
-            value={location}
-            placeholder="Location"
-            onChange={(e) => setLocation(e.target.value)}
-          />
-        </label>
-        <AnimalDropdown />
-        <BreedDropdown />
+        <div id="form-container">
+          <label htmlFor="location">
+            Location
+            <input
+              id="location"
+              value={location}
+              placeholder="Location"
+              onChange={(e) => setLocation(e.target.value)}
+            />
+          </label>
+          <AnimalDropdown />
+          <BreedDropdown />
 
-        <button>Search</button>
+          <button>Search</button>
+        </div>
       </form>
+
       <Results pets={pets} />
     </div>
   );

@@ -7,7 +7,7 @@ import Details from "./Details";
 const App = () => {
   return (
     <React.StrictMode>
-      <div>
+      <div id="info-container">
         <header>
           <Link to="/"></Link>
           <div id="logo-text">
