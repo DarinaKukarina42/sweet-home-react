@@ -11,7 +11,7 @@ const App = () => {
         <header>
           <Link to="/"></Link>
           <div id="logo-text">
-            <h3 id="adopt-me">SweetHome</h3>
+            <h3 id="sweet-home">SweetHome</h3>
             <div id="line"></div>
             <p id="shelter">Pet Shelter</p>
           </div>
